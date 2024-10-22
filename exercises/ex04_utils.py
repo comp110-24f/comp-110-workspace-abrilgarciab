@@ -33,7 +33,7 @@ def max(
     largest_int: int = list_int[0]  # assumes the first int is the largest
     while index < len(list_int):
         if (
-            list_int[1] > largest_int
+            list_int[index] > largest_int
         ):  # used to compare the first int in the list to the current largest_int
             largest_int = list_int[
                 index
