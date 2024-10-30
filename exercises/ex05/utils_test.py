@@ -58,7 +58,7 @@ def test_add_at_index_empty() -> None:
     assert input_list == [1]
 
 
-# tests if add_at_index raises the Index Error when the index given is great
+# tests if add_at_index raises the Index Error when the index given is invalid/out of range
 def test_add_at_index_raises_indexerror():
     input_list: list[int] = []
     with pytest.raises(IndexError):
